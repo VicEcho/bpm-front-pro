@@ -77,6 +77,9 @@ export const getRouterData = app => {
     '/dashboard/leave': {
       component: dynamicWrapper(app, ['leave'], () => import('../routes/Dashboard/Leave')),
     },
+    '/dashboard/order': {
+      component: dynamicWrapper(app, ['order'], () => import('../routes/Dashboard/Order')),
+    },
     '/dashboard/analysis': {
       component: dynamicWrapper(app, ['chart'], () => import('../routes/Dashboard/Analysis')),
     },

@@ -11,6 +11,10 @@ const menuData = [
         path: 'leave',
       },
       {
+        name: '订单',
+        path: 'order',
+      },
+      {
         name: '分析页',
         path: 'analysis',
       },
